@@ -1,9 +1,9 @@
 ; marcelnote - new list to determine Physical / Special types
 SpecialTypesList:
-	db FALSE     ; $00 ; NORMAL
-	db FALSE     ; $01 ; FIGHTING
-	db FALSE     ; $02 ; FLYING
-	db FALSE     ; $03 ; POISON
+	db TRUE      ; $00 ; NORMAL from < > to TRUE
+	db TRUE      ; $01 ; FIGHTING from < > to TRUE
+	db TRUE      ; $02 ; FLYING from < > to TRUE
+	db TRUE      ; $03 ; POISON from < > to TRUE
 	db FALSE     ; $04 ; GROUND
 	db FALSE     ; $05 ; ROCK
 	db FALSE     ; $06 ; BIRD
@@ -21,10 +21,10 @@ SpecialTypesList:
 	db FALSE     ; $12 ; unused type
 	db FALSE     ; $13 ; unused type
 	db TRUE      ; $14 ; FIRE
-	db TRUE      ; $15 ; WATER
-	db TRUE      ; $16 ; GRASS
+	db FALSE     ; $15 ; WATER from < > to FALSE
+	db FALSE     ; $16 ; GRASS from < > to FALSE
 	db TRUE      ; $17 ; ELECTRIC
 	db TRUE      ; $18 ; PSYCHIC_TYPE
-	db TRUE      ; $19 ; ICE
+	db FALSE     ; $19 ; ICE from < > to FALSE
 	db FALSE     ; $1A ; DRAGON
 	db -1 ; end
