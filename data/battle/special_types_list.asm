@@ -27,4 +27,5 @@ SpecialTypesList:
 	db TRUE      ; $18 ; PSYCHIC_TYPE
 	db FALSE     ; $19 ; ICE to FALSE
 	db FALSE     ; $1A ; DRAGON
+	db FALSE	 ; $1B ; NORMAL_PHYS
 	db -1 ; end
