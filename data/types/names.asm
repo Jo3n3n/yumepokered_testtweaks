@@ -42,4 +42,4 @@ ENDR
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
-.NormalP:  db "NORMAL"
+.NormalP:  db "NORMAL@"
