@@ -15,10 +15,11 @@
 	const GHOST        ; $08
 
 DEF UNUSED_TYPES EQU const_value
-	const_next 20 ; = $14
+	const_next 19 ; = $13
 DEF UNUSED_TYPES_END EQU const_value
 
 ;DEF SPECIAL EQU const_value
+	const NORMAL_SPC   ; $13
 	const FIRE         ; $14
 	const WATER        ; $15
 	const GRASS        ; $16
@@ -26,6 +27,5 @@ DEF UNUSED_TYPES_END EQU const_value
 	const PSYCHIC_TYPE ; $18
 	const ICE          ; $19
 	const DRAGON       ; $1A
-	const NORMAL_PHYS  ; $1B
 
 DEF NUM_TYPES EQU const_value
