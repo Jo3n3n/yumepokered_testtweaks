@@ -4,4 +4,5 @@ HighCriticalMoves:
 	db CRABHAMMER
 	db SLASH
 	db ELECTRO_BALL ; marcelnote - new signature move for VOLTORB and ELECTRODE
+	db VICEGRIP
 	db -1 ; end
