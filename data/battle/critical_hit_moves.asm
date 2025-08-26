@@ -5,4 +5,5 @@ HighCriticalMoves:
 	db SLASH
 	db ELECTRO_BALL ; marcelnote - new signature move for VOLTORB and ELECTRODE
 	db VICEGRIP
+	db DRILL_PECK
 	db -1 ; end
