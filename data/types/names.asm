@@ -15,6 +15,7 @@ REPT UNUSED_TYPES_END - UNUSED_TYPES
 	dw .Normal
 ENDR
 
+	dw .NormalS
 	dw .Fire
 	dw .Water
 	dw .Grass
@@ -22,7 +23,6 @@ ENDR
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
-	dw .NormalS
 
 	assert_table_length NUM_TYPES
 
