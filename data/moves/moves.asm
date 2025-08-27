@@ -43,7 +43,7 @@ Moves:
 	move HORN_ATTACK,  FLINCH_SIDE_EFFECT2,         65, ROCK,         100, 25 ; jo3n3nnote - changed from NORMAL, NO_ADDITIONAL_EFFECT
 	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 20 ; marcelnote - changed from acc 85 - jo3n3nnote - changed from pwr 15, acc 95
 	move HORN_DRILL,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, FIGTHING,      95, 35 ; jo3n3nnote - changed from NORMAL
+	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, FIGHTING,      95, 35 ; jo3n3nnote - changed from NORMAL
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       65, NORMAL,        95, 15 ; jo3n3nnote - changed from pwr 85, acc 100
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,        85, 20 ; jo3n3nnote - changed from pwr 90, RECOIL_EFFECT
