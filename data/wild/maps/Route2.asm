@@ -17,8 +17,8 @@ IF (DEF(_BLUE) || DEF(_GREEN)) ; marcelnote: Green has same encounters as Blue f
 	db  3, CATERPIE
 	db  4, PARAS ; marcelnote - was 2, RATTATA
 	db  5, RATTATA
-	db  4, CATERPIE
-	db  5, CATERPIE
+	db  5, PONYTA
+	db  5, GROWLITHE
 ENDC
 	end_grass_wildmons
 
